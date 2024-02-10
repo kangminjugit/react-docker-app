@@ -40,3 +40,4 @@ jobs:
         env-name: React-docker-app-v2-env
         version-label: ${{ github.sha }}
         artifact: build
+        deployment_package: deploy.zip
